@@ -1,9 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
+import DestinationPage from "./pages/DestinationPage";
 import Home from "./pages/Home";
 import ServicePage from "./pages/ServicePage";
+import TestomonialPage from "./pages/TestomonialPage";
 import TourPackagePage from "./pages/TourPackagePage";
+import TravelGuidePage from "./pages/TravelGuidePage";
 
 export const router = createBrowserRouter([
   {
@@ -25,5 +28,17 @@ export const router = createBrowserRouter([
   {
     path: "/tour",
     element: <TourPackagePage />,
+  },
+  {
+    path: "/testomonial",
+    element: <TestomonialPage />,
+  },
+  {
+    path: "/guide",
+    element: <TravelGuidePage />,
+  },
+  {
+    path: "/destination",
+    element: <DestinationPage />,
   },
 ]);
