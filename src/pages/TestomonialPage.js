@@ -2,7 +2,7 @@ import React from "react";
 import BackToTop from "../components/common/BackToTop";
 import Booking from "../components/common/Booking";
 import Footer from "../components/common/Footer";
-import HeaderTestomonial from "../components/common/Headers/HeaderTestomonial";
+import Header from "../components/common/Headers/Header";
 import Navbar from "../components/common/Navbar";
 import Testimonial from "../components/common/Testimonial";
 import TopBar from "../components/common/TopBar";
@@ -12,7 +12,7 @@ const TestomonialPage = () => {
     <>
       <TopBar />
       <Navbar />
-      <HeaderTestomonial />
+      <Header title="Testomonial" />
       <Booking />
       <Testimonial />
       <Footer />

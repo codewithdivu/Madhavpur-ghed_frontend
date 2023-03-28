@@ -2,7 +2,7 @@ import React from "react";
 import BackToTop from "../components/common/BackToTop";
 import Booking from "../components/common/Booking";
 import Footer from "../components/common/Footer";
-import HeaderService from "../components/common/Headers/HeaderService";
+import Header from "../components/common/Headers/Header";
 import Navbar from "../components/common/Navbar";
 import Service from "../components/common/Service";
 import Testimonial from "../components/common/Testimonial";
@@ -13,7 +13,7 @@ const ServicePage = () => {
     <>
       <TopBar />
       <Navbar />
-      <HeaderService />
+      <Header title="Service" />
       <Booking />
       <Service />
       <Testimonial />

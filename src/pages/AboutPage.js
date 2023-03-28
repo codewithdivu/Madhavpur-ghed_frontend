@@ -3,7 +3,7 @@ import About from "../components/common/About";
 import Booking from "../components/common/Booking";
 import Feature from "../components/common/Feature";
 import Footer from "../components/common/Footer";
-import HeaderAbout from "../components/common/Headers/HeaderAbout";
+import Header from "../components/common/Headers/Header";
 import Navbar from "../components/common/Navbar";
 import Registration from "../components/common/Registration";
 import Team from "../components/common/Team";
@@ -14,7 +14,7 @@ const AboutPage = () => {
     <>
       <TopBar />
       <Navbar />
-      <HeaderAbout />
+      <Header title="about" />
       <Booking />
       <About />
       <Feature />

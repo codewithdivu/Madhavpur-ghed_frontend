@@ -3,7 +3,7 @@ import BackToTop from "../components/common/BackToTop";
 import BlogGrid from "../components/common/BlogGrid";
 import Booking from "../components/common/Booking";
 import Footer from "../components/common/Footer";
-import HeaderBlog from "../components/common/Headers/HeaderBlog";
+import Header from "../components/common/Headers/Header";
 import Navbar from "../components/common/Navbar";
 import TopBar from "../components/common/TopBar";
 
@@ -12,7 +12,7 @@ const BlogGridPage = () => {
     <>
       <TopBar />
       <Navbar />
-      <HeaderBlog />
+      <Header title="Blog" />
       <Booking />
       <BlogGrid />
       <Footer />

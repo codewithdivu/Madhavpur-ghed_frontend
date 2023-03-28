@@ -1,6 +1,11 @@
-import React from "react";
+import { route } from "../../constants/routes";
 
 const Navbar = () => {
+
+
+
+
+  
   return (
     <div className="container-fluid position-relative nav-bar p-0">
       <div
@@ -26,16 +31,16 @@ const Navbar = () => {
             id="navbarCollapse"
           >
             <div className="navbar-nav ml-auto py-0">
-              <a href="index.html" className="nav-item nav-link active">
+              <a href={route.HOME} className="nav-item nav-link active">
                 Home
               </a>
-              <a href="about.html" className="nav-item nav-link">
+              <a href={route.ABOUT} className="nav-item nav-link">
                 About
               </a>
-              <a href="service.html" className="nav-item nav-link">
+              <a href={route.SERVICE} className="nav-item nav-link">
                 Services
               </a>
-              <a href="package.html" className="nav-item nav-link">
+              <a href={route.TOUR} className="nav-item nav-link">
                 Tour Packages
               </a>
               <div className="nav-item dropdown">
@@ -47,24 +52,24 @@ const Navbar = () => {
                   Pages
                 </a>
                 <div className="dropdown-menu border-0 rounded-0 m-0">
-                  <a href="blog.html" className="dropdown-item">
+                  <a href={route.BLOG} className="dropdown-item">
                     Blog Grid
                   </a>
-                  <a href="single.html" className="dropdown-item">
+                  <a href={route.BLOG_DETAILS} className="dropdown-item">
                     Blog Detail
                   </a>
-                  <a href="destination.html" className="dropdown-item">
+                  <a href={route.DESTINATION} className="dropdown-item">
                     Destination
                   </a>
-                  <a href="guide.html" className="dropdown-item">
+                  <a href={route.GUIDE} className="dropdown-item">
                     Travel Guides
                   </a>
-                  <a href="testimonial.html" className="dropdown-item">
+                  <a href={route.TESTOMONIAL} className="dropdown-item">
                     Testimonial
                   </a>
                 </div>
               </div>
-              <a href="contact.html" className="nav-item nav-link">
+              <a href={route.CONTACT} className="nav-item nav-link">
                 Contact
               </a>
             </div>
@@ -76,3 +81,21 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// $(document).ready(function () {
+//   function toggleNavbarMethod() {
+//     if ($(window).width() > 992) {
+//       $(".navbar .dropdown")
+//         .on("mouseover", function () {
+//           $(".dropdown-toggle", this).trigger("click");
+//         })
+//         .on("mouseout", function () {
+//           $(".dropdown-toggle", this).trigger("click").blur();
+//         });
+//     } else {
+//       $(".navbar .dropdown").off("mouseover").off("mouseout");
+//     }
+//   }
+//   toggleNavbarMethod();
+//   $(window).resize(toggleNavbarMethod);
+// });
