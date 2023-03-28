@@ -23,26 +23,38 @@ const About = () => {
               >
                 About Us
               </h6>
-              <h1 className="mb-3">
-                We Provide Best Tour Packages In Your Budget
-              </h1>
+              <h1 className="mb-3">Madhavpur Ghed</h1>
               <p>
-                Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam
-                dolore sed et. Sit rebum labore sit sit ut vero no sit. Et elitr
-                stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et erat
-                sed diam duo
+                Madhavpur (Ghed) is a small but culturally significant village
+                in state of Gujarat, India. It lies on the seashore. Madhavpur
+                is the site of a 15th-century temple of Madhavraiji who is a
+                form of Lord Krishna. The original temple has been badly damaged
+                by attacks by Muslim invaders, however a ruined structure is
+                still present and gives idea of original undamaged temple. A
+                newly constructed temple is used for worship now adjacent to the
+                old one.
               </p>
               <div className="row mb-4">
                 <div className="col-6">
-                  <img className="img-fluid" src="img/about-1.jpg" alt="" />
+                  {/* <img className="img-fluid" src="img/about-1.jpg" alt="" /> */}
+                  <img
+                    className="img-fluid"
+                    src="madhavpur/Madhavpur_4.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="col-6">
-                  <img className="img-fluid" src="img/about-2.jpg" alt="" />
+                  {/* <img className="img-fluid" src="img/about-2.jpg" alt="" /> */}
+                  <img
+                    className="img-fluid"
+                    src="madhavpur/Madhavpur_3.jpg"
+                    alt=""
+                  />
                 </div>
               </div>
-              <a href="#" className="btn btn-primary mt-1">
+              {/* <a href="#" className="btn btn-primary mt-1">
                 Book Now
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

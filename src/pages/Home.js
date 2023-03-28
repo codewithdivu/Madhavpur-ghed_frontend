@@ -18,49 +18,19 @@ import TopBar from "../components/common/TopBar";
 const Home = () => {
   return (
     <>
-      {/* Topbar Start */}
       <TopBar />
-
-      {/* Navbar Start */}
       <Navbar />
-
-      {/* Carousel Start */}
       <Corousel />
-
-      {/* Booking Start */}
-      {/* <Booking /> */}
-
-      {/* About Start */}
       <About />
-
-      {/* Feature Start */}
       <Feature />
-
-      {/* Destination Start */}
       <Destination />
-
-      {/* Service Start */}
       <Service />
-
-      {/* Packages Start */}
       <Packages />
-
-      {/* Registration Start */}
       <Registration />
-
-      {/* Team Start */}
       <Team />
-
-      {/* Testimonial Start */}
       <Testimonial />
-
-      {/* Blog Start */}
       <Blog />
-
-      {/* Footer Start */}
       <Footer />
-
-      {/* Back to Top */}
       <BackToTop />
     </>
   );
