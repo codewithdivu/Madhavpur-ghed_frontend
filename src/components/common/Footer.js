@@ -1,4 +1,5 @@
 import React from "react";
+import { route } from "../../constants/routes";
 
 const Footer = () => {
   return (
@@ -22,16 +23,28 @@ const Footer = () => {
               Follow Us
             </h6>
             <div className="d-flex justify-content-start">
-              <a className="btn btn-outline-primary btn-square mr-2" href="#">
-                <i className="fab fa-twitter"></i>
+              <a
+                className="btn btn-outline-primary btn-square mr-2"
+                href="https://t.me/madhavpur"
+              >
+                <i className="fab fa-telegram"></i>
               </a>
-              <a className="btn btn-outline-primary btn-square mr-2" href="#">
+              <a
+                className="btn btn-outline-primary btn-square mr-2"
+                href="https://www.facebook.com/madhavpur5/"
+              >
                 <i className="fab fa-facebook-f"></i>
               </a>
-              <a className="btn btn-outline-primary btn-square mr-2" href="#">
+              <a
+                className="btn btn-outline-primary btn-square mr-2"
+                href="https://www.linkedin.com/company/madhavpur/"
+              >
                 <i className="fab fa-linkedin-in"></i>
               </a>
-              <a className="btn btn-outline-primary btn-square" href="#">
+              <a
+                className="btn btn-outline-primary btn-square"
+                href="https://www.instagram.com/_madhavpur_/?igshid=18wgp98h0lhxv"
+              >
                 <i className="fab fa-instagram"></i>
               </a>
             </div>
@@ -44,25 +57,25 @@ const Footer = () => {
               Our Services
             </h5>
             <div className="d-flex flex-column justify-content-start">
-              <a className="text-white-50 mb-2" href="#">
+              <a className="text-white-50 mb-2" href={route.ABOUT}>
                 <i className="fa fa-angle-right mr-2"></i>About
               </a>
-              <a className="text-white-50 mb-2" href="#">
+              <a className="text-white-50 mb-2" href={route.DESTINATION}>
                 <i className="fa fa-angle-right mr-2"></i>Destination
               </a>
-              <a className="text-white-50 mb-2" href="#">
+              <a className="text-white-50 mb-2" href={route.SERVICE}>
                 <i className="fa fa-angle-right mr-2"></i>Services
               </a>
-              <a className="text-white-50 mb-2" href="#">
+              <a className="text-white-50 mb-2" href={route.TOUR}>
                 <i className="fa fa-angle-right mr-2"></i>Packages
               </a>
-              <a className="text-white-50 mb-2" href="#">
+              <a className="text-white-50 mb-2" href={route.GUIDE}>
                 <i className="fa fa-angle-right mr-2"></i>Guides
               </a>
-              <a className="text-white-50 mb-2" href="#">
+              <a className="text-white-50 mb-2" href={route.TESTOMONIAL}>
                 <i className="fa fa-angle-right mr-2"></i>Testimonial
               </a>
-              <a className="text-white-50" href="#">
+              <a className="text-white-50" href={route.BLOG}>
                 <i className="fa fa-angle-right mr-2"></i>Blog
               </a>
             </div>
@@ -75,25 +88,25 @@ const Footer = () => {
               Usefull Links
             </h5>
             <div className="d-flex flex-column justify-content-start">
-              <a className="text-white-50 mb-2" href="#">
+              <a className="text-white-50 mb-2" href={route.ABOUT}>
                 <i className="fa fa-angle-right mr-2"></i>About
               </a>
-              <a className="text-white-50 mb-2" href="#">
+              <a className="text-white-50 mb-2" href={route.DESTINATION}>
                 <i className="fa fa-angle-right mr-2"></i>Destination
               </a>
-              <a className="text-white-50 mb-2" href="#">
+              <a className="text-white-50 mb-2" href={route.SERVICE}>
                 <i className="fa fa-angle-right mr-2"></i>Services
               </a>
-              <a className="text-white-50 mb-2" href="#">
+              <a className="text-white-50 mb-2" href={route.TOUR}>
                 <i className="fa fa-angle-right mr-2"></i>Packages
               </a>
-              <a className="text-white-50 mb-2" href="#">
+              <a className="text-white-50 mb-2" href={route.GUIDE}>
                 <i className="fa fa-angle-right mr-2"></i>Guides
               </a>
-              <a className="text-white-50 mb-2" href="#">
+              <a className="text-white-50 mb-2" href={route.TESTOMONIAL}>
                 <i className="fa fa-angle-right mr-2"></i>Testimonial
               </a>
-              <a className="text-white-50" href="#">
+              <a className="text-white-50" href={route.BLOG}>
                 <i className="fa fa-angle-right mr-2"></i>Blog
               </a>
             </div>

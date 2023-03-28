@@ -1,11 +1,10 @@
 import { route } from "../../constants/routes";
+import { useLocation } from "react-router-dom";
 
 const Navbar = () => {
+  const location = useLocation();
 
-
-
-
-  
+  console.log("path..", location.pathname);
   return (
     <div className="container-fluid position-relative nav-bar p-0">
       <div
@@ -31,45 +30,104 @@ const Navbar = () => {
             id="navbarCollapse"
           >
             <div className="navbar-nav ml-auto py-0">
-              <a href={route.HOME} className="nav-item nav-link active">
+              <a
+                href={route.HOME}
+                className={`nav-item nav-link ${
+                  location.pathname === "/" ? "active" : ""
+                }`}
+              >
                 Home
               </a>
-              <a href={route.ABOUT} className="nav-item nav-link">
+              <a
+                href={route.ABOUT}
+                className={`nav-item nav-link ${
+                  location.pathname === "/about" ? "active" : ""
+                }`}
+              >
                 About
               </a>
-              <a href={route.SERVICE} className="nav-item nav-link">
+              <a
+                href={route.SERVICE}
+                className={`nav-item nav-link ${
+                  location.pathname === "/service" ? "active" : ""
+                }`}
+              >
                 Services
               </a>
-              <a href={route.TOUR} className="nav-item nav-link">
+              <a
+                href={route.TOUR}
+                className={`nav-item nav-link ${
+                  location.pathname === "/tour" ? "active" : ""
+                }`}
+              >
                 Tour Packages
               </a>
               <div className="nav-item dropdown">
                 <a
                   href="#"
-                  className="nav-link dropdown-toggle"
+                  className={`nav-link dropdown-toggle ${
+                    location.pathname === "/blog" ||
+                    location.pathname === "/blogDetail" ||
+                    location.pathname === "/testomonial" ||
+                    location.pathname === "/guide" ||
+                    location.pathname === "/destination"
+                      ? "active"
+                      : ""
+                  }`}
                   data-toggle="dropdown"
                 >
                   Pages
                 </a>
                 <div className="dropdown-menu border-0 rounded-0 m-0">
-                  <a href={route.BLOG} className="dropdown-item">
+                  <a
+                    href={route.BLOG}
+                    className={`dropdown-item ${
+                      location.pathname === "/blog" ? "active" : ""
+                    }`}
+                  >
                     Blog Grid
                   </a>
-                  <a href={route.BLOG_DETAILS} className="dropdown-item">
+
+                  <a
+                    href={route.BLOG_DETAILS}
+                    className={`dropdown-item ${
+                      location.pathname === "/blogDetail" ? "active" : ""
+                    }`}
+                  >
                     Blog Detail
                   </a>
-                  <a href={route.DESTINATION} className="dropdown-item">
+                  <a
+                    href={route.DESTINATION}
+                    className={`dropdown-item ${
+                      location.pathname === "/destination" ? "active" : ""
+                    }`}
+                  >
                     Destination
                   </a>
-                  <a href={route.GUIDE} className="dropdown-item">
+                  <a
+                    href={route.GUIDE}
+                    className={`dropdown-item ${
+                      location.pathname === "/guide" ? "active" : ""
+                    }`}
+                  >
                     Travel Guides
                   </a>
-                  <a href={route.TESTOMONIAL} className="dropdown-item">
+                  <a
+                    href={route.TESTOMONIAL}
+                    className={`dropdown-item ${
+                      location.pathname === "/testomonial" ? "active" : ""
+                    }`}
+                  >
                     Testimonial
                   </a>
                 </div>
               </div>
-              <a href={route.CONTACT} className="nav-item nav-link">
+              <a
+                href={route.CONTACT}
+                className={`nav-item nav-link ${
+                  location.pathname === "/contact" ? "active" : ""
+                }`}
+              >
                 Contact
               </a>
             </div>
@@ -81,21 +139,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-// $(document).ready(function () {
-//   function toggleNavbarMethod() {
-//     if ($(window).width() > 992) {
-//       $(".navbar .dropdown")
-//         .on("mouseover", function () {
-//           $(".dropdown-toggle", this).trigger("click");
-//         })
-//         .on("mouseout", function () {
-//           $(".dropdown-toggle", this).trigger("click").blur();
-//         });
-//     } else {
-//       $(".navbar .dropdown").off("mouseover").off("mouseout");
-//     }
-//   }
-//   toggleNavbarMethod();
-//   $(window).resize(toggleNavbarMethod);
-// });

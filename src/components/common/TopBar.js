@@ -16,16 +16,25 @@ const TopBar = () => {
           </div>
           <div className="col-lg-6 text-center text-lg-right">
             <div className="d-inline-flex align-items-center">
-              <a className="text-primary px-3" href="#">
+              <a
+                className="text-primary px-3"
+                href="https://www.facebook.com/madhavpur5/"
+              >
                 <i className="fab fa-facebook-f"></i>
               </a>
-              <a className="text-primary px-3" href="#">
+              <a className="text-primary px-3" href="https://www.linkedin.com/company/madhavpur/">
                 <i className="fab fa-linkedin-in"></i>
               </a>
-              <a className="text-primary px-3" href="#">
+              <a
+                className="text-primary px-3"
+                href="https://www.instagram.com/_madhavpur_/?igshid=18wgp98h0lhxv"
+              >
                 <i className="fab fa-instagram"></i>
               </a>
-              <a className="text-primary pl-3" href="#">
+              <a
+                className="text-primary pl-3"
+                href="https://www.youtube.com/@MadhavpurGhed"
+              >
                 <i className="fab fa-youtube"></i>
               </a>
             </div>
