@@ -141,13 +141,13 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-6 text-center text-md-left mb-3 mb-md-0">
             <p className="m-0 text-white-50">
-              Copyright &copy; <a href="#">Madhavpur.in</a>. All Rights
-              Reserved.
+              Copyright &copy; <a href="https://madhavpur.in/">Madhavpur.in</a>.
+              All Rights Reserved.
             </p>
           </div>
           <div className="col-lg-6 text-center text-md-right">
             <p className="m-0 text-white-50">
-              Designed by <a href="#">DK</a>
+              Designed by <a href="#">Dk and Divyesh</a>
             </p>
           </div>
         </div>
