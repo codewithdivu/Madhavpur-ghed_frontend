@@ -3,6 +3,7 @@ import About from "../components/common/About";
 import BackToTop from "../components/common/BackToTop";
 import Blog from "../components/common/Blog";
 import Booking from "../components/common/Booking";
+import Contact from "../components/common/Contact";
 import Corousel from "../components/common/Corousel";
 import Destination from "../components/common/Destination";
 import Feature from "../components/common/Feature";
@@ -22,11 +23,12 @@ const Home = () => {
       <Navbar />
       <Corousel />
       <About />
-      <Feature />
+      {/* <Feature /> */}
       <Destination />
       <Service />
-      <Packages />
+      {/* <Packages /> */}
       <Registration />
+      {/* <Contact /> */}
       <Team />
       <Testimonial />
       <Blog />

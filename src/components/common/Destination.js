@@ -16,73 +16,81 @@ const Destination = () => {
         <div className="row">
           <div className="col-lg-4 col-md-6 mb-4">
             <div className="destination-item position-relative overflow-hidden mb-2">
-              <img className="img-fluid" src="img/destination-1.jpg" alt="" />
+              <img className="img-fluid" src="/madhavpur/beach.jpg" alt="" />
               <a
                 className="destination-overlay text-white text-decoration-none"
                 href="#"
               >
-                <h5 className="text-white">United States</h5>
-                <span>100 Cities</span>
+                <h5 className="text-white">Beach</h5>
+                {/* <span>100 Cities</span> */}
               </a>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 mb-4">
             <div className="destination-item position-relative overflow-hidden mb-2">
-              <img className="img-fluid" src="img/destination-2.jpg" alt="" />
+              <img
+                className="img-fluid"
+                src="madhavpur/Madhavpur_4.jpg"
+                alt=""
+              />
               <a
                 className="destination-overlay text-white text-decoration-none"
                 href="#"
               >
-                <h5 className="text-white">United Kingdom</h5>
-                <span>100 Cities</span>
+                <h5 className="text-white">Madhavarai Temple</h5>
+                {/* <span>100 Cities</span> */}
               </a>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 mb-4">
             <div className="destination-item position-relative overflow-hidden mb-2">
-              <img className="img-fluid" src="img/destination-3.jpg" alt="" />
+              <img
+                className="img-fluid"
+                src="madhavpur/Madhavpur_3.jpg"
+                alt=""
+              />
               <a
                 className="destination-overlay text-white text-decoration-none"
                 href="#"
               >
-                <h5 className="text-white">Australia</h5>
-                <span>100 Cities</span>
+                <h5 className="text-white">Fair</h5>
+                {/* <span>100 Cities</span> */}
               </a>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 mb-4">
             <div className="destination-item position-relative overflow-hidden mb-2">
-              <img className="img-fluid" src="img/destination-4.jpg" alt="" />
+              <img className="img-fluid" src="madhavpur/nature.jpg" alt="" />
               <a
                 className="destination-overlay text-white text-decoration-none"
                 href="#"
               >
-                <h5 className="text-white">India</h5>
-                <span>100 Cities</span>
+                <h5 className="text-white">Chopati</h5>
+                {/* <span>100 Cities</span> */}
               </a>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 mb-4">
             <div className="destination-item position-relative overflow-hidden mb-2">
-              <img className="img-fluid" src="img/destination-5.jpg" alt="" />
+              <img className="img-fluid" src="madhavpur/sea.jpg" alt="" />
               <a
                 className="destination-overlay text-white text-decoration-none"
                 href="#"
               >
-                <h5 className="text-white">South Africa</h5>
-                <span>100 Cities</span>
+                <h5 className="text-white">Sea</h5>
+                {/* <span>100 Cities</span> */}
               </a>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 mb-4">
             <div className="destination-item position-relative overflow-hidden mb-2">
-              <img className="img-fluid" src="img/destination-6.jpg" alt="" />
+              <img className="img-fluid" src="madhavpur/budhdha.jpg" alt="" />
               <a
                 className="destination-overlay text-white text-decoration-none"
                 href="#"
               >
-                <h5 className="text-white">Indonesia</h5>
-                <span>100 Cities</span>
+                <h5 className="text-white">Osho Ashram</h5>
+                {/* <span>100 Cities</span> */}
               </a>
             </div>
           </div>

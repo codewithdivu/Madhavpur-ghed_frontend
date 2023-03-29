@@ -14,7 +14,7 @@ const Registration = () => {
                 className="text-primary text-uppercase"
                 style={{ letterSpacing: "5px" }}
               >
-                Mega Offer
+                Sign Up
               </h6>
               <h1 className="text-white">
                 <span className="text-primary">30% OFF</span> For Honeymoon
@@ -44,43 +44,66 @@ const Registration = () => {
           <div className="col-lg-5">
             <div className="card border-0">
               <div className="card-header bg-primary text-center p-4">
-                <h1 className="text-white m-0">Sign Up Now</h1>
+                <h1 className="text-white m-0">Contact For Query</h1>
               </div>
               <div className="card-body rounded-bottom bg-white p-5">
-                <form>
-                  <div className="form-group">
+                <form
+                  name="sentMessage"
+                  id="contactForm"
+                  novalidate="novalidate"
+                >
+                  <div className="control-group">
                     <input
                       type="text"
                       className="form-control p-4"
-                      placeholder="Your name"
+                      id="name"
+                      placeholder="Your Name"
                       required="required"
+                      data-validation-required-message="Please enter your Name"
                     />
+                    <p className="help-block text-danger"></p>
                   </div>
-                  <div className="form-group">
+                  <div className="control-group">
                     <input
                       type="email"
                       className="form-control p-4"
-                      placeholder="Your email"
+                      id="email"
+                      placeholder="Your Email"
                       required="required"
+                      data-validation-required-message="Please enter your Email"
                     />
+                    <p className="help-block text-danger"></p>
                   </div>
-                  <div className="form-group">
-                    <select
-                      className="custom-select px-4"
-                      style={{ height: "47px" }}
-                    >
-                      <option defaultValue>Select a destination</option>
-                      <option value="1">destination 1</option>
-                      <option value="2">destination 1</option>
-                      <option value="3">destination 1</option>
-                    </select>
+
+                  <div className="control-group">
+                    <input
+                      type="text"
+                      className="form-control p-4"
+                      id="subject"
+                      placeholder="Subject"
+                      required="required"
+                      data-validation-required-message="Please enter a subject"
+                    />
+                    <p className="help-block text-danger"></p>
                   </div>
-                  <div>
+                  <div className="control-group">
+                    <textarea
+                      className="form-control py-3 px-4"
+                      rows="5"
+                      id="message"
+                      placeholder="Message"
+                      required="required"
+                      data-validation-required-message="Please enter your message"
+                    ></textarea>
+                    <p className="help-block text-danger"></p>
+                  </div>
+                  <div className="text-center">
                     <button
-                      className="btn btn-primary btn-block py-3"
+                      className="btn btn-primary py-3 px-4"
                       type="submit"
+                      id="sendMessageButton"
                     >
-                      Sign Up Now
+                      Send Message
                     </button>
                   </div>
                 </form>
