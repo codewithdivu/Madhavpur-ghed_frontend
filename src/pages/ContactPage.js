@@ -13,7 +13,7 @@ const ContactPage = () => {
       <TopBar />
       <Navbar />
       <Header title="Contact" />
-      <Booking />
+      {/* <Booking /> */}
       <Contact />
       <Footer />
       <BackToTop />

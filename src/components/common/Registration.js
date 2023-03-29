@@ -8,25 +8,26 @@ const Registration = () => {
     >
       <div className="container py-5">
         <div className="row align-items-center">
-          <div className="col-lg-7 mb-5 mb-lg-0">
+          <div className="col-lg-6 mb-5 mb-lg-0">
             <div className="mb-4">
-              <h6
+              {/* <h6
                 className="text-primary text-uppercase"
                 style={{ letterSpacing: "5px" }}
               >
-                Sign Up
-              </h6>
+                Contact us
+              </h6> */}
               <h1 className="text-white">
-                <span className="text-primary">30% OFF</span> For Honeymoon
+                <span className="text-primary">Contact</span> Us
               </h1>
             </div>
             <p className="text-white">
-              Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo
-              dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo.
-              Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est
-              dolor
+              If you ever find yourself with a question or need help while
+              visiting the Madhavpur, don't hesitate to get in touch with us.
+              Our team is available to answer any questions you may have and
+              provide you with the assistance you need to make the most of your
+              time at the Madhavpur.
             </p>
-            <ul className="list-inline text-white m-0">
+            {/* <ul className="list-inline text-white m-0">
               <li className="py-2">
                 <i className="fa fa-check text-primary mr-3"></i>Labore eos amet
                 dolor amet diam
@@ -39,12 +40,12 @@ const Registration = () => {
                 <i className="fa fa-check text-primary mr-3"></i>Diam dolor diam
                 elitripsum vero.
               </li>
-            </ul>
+            </ul> */}
           </div>
-          <div className="col-lg-5">
+          <div className="col-lg-6">
             <div className="card border-0">
               <div className="card-header bg-primary text-center p-4">
-                <h1 className="text-white m-0">Contact For Query</h1>
+                <h1 className="text-white m-0">Drop your message</h1>
               </div>
               <div className="card-body rounded-bottom bg-white p-5">
                 <form

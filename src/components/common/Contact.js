@@ -11,7 +11,7 @@ const Contact = () => {
           >
             Contact
           </h6>
-          <h1>Contact For Any Query</h1>
+          <h1>Drop your message</h1>
         </div>
         <div className="row justify-content-center">
           <div className="col-lg-8">

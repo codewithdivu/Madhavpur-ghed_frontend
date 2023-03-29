@@ -4,7 +4,6 @@ import { useLocation } from "react-router-dom";
 const Navbar = () => {
   const location = useLocation();
 
-  console.log("path..", location.pathname);
   return (
     <div className="container-fluid position-relative nav-bar p-0">
       <div
@@ -46,23 +45,23 @@ const Navbar = () => {
               >
                 About
               </a>
-              <a
+              {/* <a
                 href={route.SERVICE}
                 className={`nav-item nav-link ${
                   location.pathname === "/service" ? "active" : ""
                 }`}
               >
                 Services
-              </a>
-              <a
+              </a> */}
+              {/* <a
                 href={route.TOUR}
                 className={`nav-item nav-link ${
                   location.pathname === "/tour" ? "active" : ""
                 }`}
               >
                 Tour Packages
-              </a>
-              <div className="nav-item dropdown">
+              </a> */}
+              {/* <div className="nav-item dropdown">
                 <a
                   href="#"
                   className={`nav-link dropdown-toggle ${
@@ -121,7 +120,7 @@ const Navbar = () => {
                     Testimonial
                   </a>
                 </div>
-              </div>
+              </div> */}
               <a
                 href={route.CONTACT}
                 className={`nav-item nav-link ${

@@ -15,11 +15,11 @@ const AboutPage = () => {
       <TopBar />
       <Navbar />
       <Header title="about" />
-      <Booking />
+      {/* <Booking /> */}
       <About />
-      <Feature />
+      {/* <Feature /> */}
       <Registration />
-      <Team />
+      {/* <Team /> */}
       <Footer />
     </>
   );

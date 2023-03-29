@@ -53,7 +53,7 @@ const Destination = () => {
                 className="destination-overlay text-white text-decoration-none"
                 href="#"
               >
-                <h5 className="text-white">Fair</h5>
+                <h5 className="text-white">Festival</h5>
                 {/* <span>100 Cities</span> */}
               </a>
             </div>
@@ -65,7 +65,7 @@ const Destination = () => {
                 className="destination-overlay text-white text-decoration-none"
                 href="#"
               >
-                <h5 className="text-white">Chopati</h5>
+                <h5 className="text-white">Sunset</h5>
                 {/* <span>100 Cities</span> */}
               </a>
             </div>
@@ -84,7 +84,11 @@ const Destination = () => {
           </div>
           <div className="col-lg-4 col-md-6 mb-4">
             <div className="destination-item position-relative overflow-hidden mb-2">
-              <img className="img-fluid" src="madhavpur/budhdha.jpg" alt="" />
+              <img
+                className="img-fluid"
+                src="madhavpur/osho-meditation.jpg"
+                alt=""
+              />
               <a
                 className="destination-overlay text-white text-decoration-none"
                 href="#"
