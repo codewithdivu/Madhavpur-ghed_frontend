@@ -23,32 +23,32 @@ export const router = createBrowserRouter([
     path: "/contact",
     element: <ContactPage />,
   },
-  {
-    path: "/service",
-    element: <ServicePage />,
-  },
-  {
-    path: "/tour",
-    element: <TourPackagePage />,
-  },
-  {
-    path: "/testomonial",
-    element: <TestomonialPage />,
-  },
-  {
-    path: "/guide",
-    element: <TravelGuidePage />,
-  },
-  {
-    path: "/destination",
-    element: <DestinationPage />,
-  },
-  {
-    path: "/blogDetail",
-    element: <BlogDetailPage />,
-  },
-  {
-    path: "/blog",
-    element: <BlogGridPage />,
-  },
+  // {
+  //   path: "/service",
+  //   element: <ServicePage />,
+  // },
+  // {
+  //   path: "/tour",
+  //   element: <TourPackagePage />,
+  // },
+  // {
+  //   path: "/testomonial",
+  //   element: <TestomonialPage />,
+  // },
+  // {
+  //   path: "/guide",
+  //   element: <TravelGuidePage />,
+  // },
+  // {
+  //   path: "/destination",
+  //   element: <DestinationPage />,
+  // },
+  // {
+  //   path: "/blogDetail",
+  //   element: <BlogDetailPage />,
+  // },
+  // {
+  //   path: "/blog",
+  //   element: <BlogGridPage />,
+  // },
 ]);

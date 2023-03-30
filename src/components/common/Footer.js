@@ -60,22 +60,22 @@ const Footer = () => {
               <a className="text-white-50 mb-2" href={route.ABOUT}>
                 <i className="fa fa-angle-right mr-2"></i>About
               </a>
-              <a className="text-white-50 mb-2" href={route.DESTINATION}>
+              <a className="text-white-50 mb-2" href={"#"}>
                 <i className="fa fa-angle-right mr-2"></i>Destination
               </a>
-              <a className="text-white-50 mb-2" href={route.SERVICE}>
+              <a className="text-white-50 mb-2" href={"#"}>
                 <i className="fa fa-angle-right mr-2"></i>Services
               </a>
-              <a className="text-white-50 mb-2" href={route.TOUR}>
+              <a className="text-white-50 mb-2" href={"#"}>
                 <i className="fa fa-angle-right mr-2"></i>Packages
               </a>
-              <a className="text-white-50 mb-2" href={route.GUIDE}>
+              <a className="text-white-50 mb-2" href={"#"}>
                 <i className="fa fa-angle-right mr-2"></i>Guides
               </a>
-              <a className="text-white-50 mb-2" href={route.TESTOMONIAL}>
+              <a className="text-white-50 mb-2" href={"#"}>
                 <i className="fa fa-angle-right mr-2"></i>Testimonial
               </a>
-              <a className="text-white-50" href={route.BLOG}>
+              <a className="text-white-50" href={"#"}>
                 <i className="fa fa-angle-right mr-2"></i>Blog
               </a>
             </div>
@@ -91,22 +91,22 @@ const Footer = () => {
               <a className="text-white-50 mb-2" href={route.ABOUT}>
                 <i className="fa fa-angle-right mr-2"></i>About
               </a>
-              <a className="text-white-50 mb-2" href={route.DESTINATION}>
+              <a className="text-white-50 mb-2" href={"#"}>
                 <i className="fa fa-angle-right mr-2"></i>Destination
               </a>
-              <a className="text-white-50 mb-2" href={route.SERVICE}>
+              <a className="text-white-50 mb-2" href={"#"}>
                 <i className="fa fa-angle-right mr-2"></i>Services
               </a>
-              <a className="text-white-50 mb-2" href={route.TOUR}>
+              <a className="text-white-50 mb-2" href={"#"}>
                 <i className="fa fa-angle-right mr-2"></i>Packages
               </a>
-              <a className="text-white-50 mb-2" href={route.GUIDE}>
+              <a className="text-white-50 mb-2" href={"#"}>
                 <i className="fa fa-angle-right mr-2"></i>Guides
               </a>
-              <a className="text-white-50 mb-2" href={route.TESTOMONIAL}>
+              <a className="text-white-50 mb-2" href={"#"}>
                 <i className="fa fa-angle-right mr-2"></i>Testimonial
               </a>
-              <a className="text-white-50" href={route.BLOG}>
+              <a className="text-white-50" href={"#"}>
                 <i className="fa fa-angle-right mr-2"></i>Blog
               </a>
             </div>
